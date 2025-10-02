@@ -1,3 +1,6 @@
+# Obsidian vault config
+.obsidian/workspace*.json
+
 # dependencies (bun install)
 node_modules
 
@@ -16,6 +19,7 @@ _.log
 report.[0-9]_.[0-9]_.[0-9]_.[0-9]_.json
 
 # dotenv environment variable files
+_env
 .env
 .env.development.local
 .env.test.local

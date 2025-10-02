@@ -1,15 +1,13 @@
-# learn-git-vscode
-
-To install dependencies:
-
-```bash
-bun install
-```
-
-To run:
-
-```bash
-bun run index.ts
-```
-
-This project was created using `bun init` in bun v1.2.18. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+# Learn Scope
+- Visual Studio Code 深度應用
+- Git、GitHub 深度應用
+- Windows Terminal→GitHub-CLI
+- Obsidian→Markdown 內容編輯器
+- Markdown 文檔語法（附帶HTML、CSS）
+- 文字筆記軟體編輯器（Notion、Evernote）
+- 筆記方法論
+- 中文輸入法（新酷音、自然輸入法、華碩智慧輸入法）
+- RegEX 正規表示法
+- unicode、emoji
+- Windows 鍵盤操作深度應用
+- ~~（有空在學）Vim/NeoVIM 編輯器應用~~

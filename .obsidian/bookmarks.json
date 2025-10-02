@@ -1,0 +1,23 @@
+{
+  "items": [
+    {
+      "type": "group",
+      "ctime": 1758934296183,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1758934268219,
+          "path": "markdown筆記.md",
+          "title": "markdown筆記"
+        }
+      ],
+      "title": "未命名群組"
+    },
+    {
+      "type": "file",
+      "ctime": 1758930277808,
+      "path": "Obsidian 使用筆記.md",
+      "title": "Obsidian筆記"
+    }
+  ]
+}

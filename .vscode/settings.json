@@ -1,3 +1,15 @@
 {
-  "editor.fontSize": 16,
+  "window.title": "${rootName}",
+  "cSpell.words": [
+    "Esor",
+    "Evernote",
+    "markmode",
+    "PIME",
+    "TRAE",
+    "winget",
+    "Winscp"
+  ],
+  "files.exclude": {
+    ".obsidian": true,
+  },
 }
