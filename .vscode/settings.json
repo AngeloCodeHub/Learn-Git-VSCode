@@ -10,6 +10,7 @@
     "Winscp"
   ],
   "files.exclude": {
-    ".obsidian": true,
+    // ".obsidian": true,
+    "Backup-env.ps1": true,
   },
 }
