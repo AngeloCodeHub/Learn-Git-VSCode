@@ -51,13 +51,6 @@
         "name": "",
         "active": true,
         "type": "DIRECTORIES",
-        "pattern": "Obsidian-Setting",
-        "patternType": "STRICT"
-      },
-      {
-        "name": "",
-        "active": true,
-        "type": "DIRECTORIES",
         "pattern": "WorkSpaceINIT",
         "patternType": "STRICT"
       },
