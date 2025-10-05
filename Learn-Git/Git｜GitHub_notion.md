@@ -3,9 +3,9 @@
 - 基本流程
 working Directory→暫存區(Staging Aera)→commit→repository→push→GitHub
 - VSCODE重訂基底有衝突時，目前變更（基底），來源變更（working dir）
-- 使用者全域setting.json：C:\Users\users\AppData\Roaming\Code\User
 - 觀念：在stage裡的檔案表示與索引（index）的檔案是一致的並準備commit的檔案
-已commit與已加入stage都稱為已被索引
+	已commit與已加入stage都稱為已被索引
+
 - git reset是針對整個commit去做移動
 git checkout使用在找回個別會多個遭刪除的檔案（或回復）
 - Git checkout會切換到指定的分支，但如果後面接的是檔名或路徑，Git 則不會切換分支，而是把檔案從 .git 目錄裡拉一份到目前的工作目錄。

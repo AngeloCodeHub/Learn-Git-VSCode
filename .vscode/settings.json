@@ -10,7 +10,11 @@
     "Winscp"
   ],
   "files.exclude": {
-    // ".obsidian": true,
+    ".obsidian": true,
     "Backup-env.ps1": true,
   },
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "explorer.excludeGitIgnore": true,
+  
 }

@@ -51,14 +51,14 @@
         "name": "",
         "active": true,
         "type": "DIRECTORIES",
-        "pattern": "WorkSpaceINIT",
+        "pattern": "_env",
         "patternType": "STRICT"
       },
       {
         "name": "",
         "active": true,
         "type": "DIRECTORIES",
-        "pattern": "_env",
+        "pattern": "node_modules",
         "patternType": "STRICT"
       }
     ],
