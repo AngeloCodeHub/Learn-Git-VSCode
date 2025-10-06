@@ -146,6 +146,7 @@ git 指令 -h
 - [高見龍：為你自己學 Git](https://gitbook.tw/)
 - [Git Flow 介紹與 GitHub Flow 介紹入門教學筆記 | 學習筆記 - KD's Tech Blog 技術部落格 | KD Chang 張凱迪](https://tech.kdchang.net/2024/12/04/learning-notes-git-flow-github-flow-intro-tutorial/)
 - [文章：Git 與 Github 版本控制基本指令與操作入門教學](https://blog.techbridge.cc/2018/01/17/learning-programming-and-coding-with-python-git-and-github-tutorial/)
+- [Gemini 對話](https://gemini.google.com/app/db6f955a27eacc99)
 - [適合初學者的簡單 Git 教程](https://nulab.com/zh-tw/learn/software-development/git-tutorial/)
 - [學會 Git，加入全球最大同性交友網站！](https://kopu.chat/coding/#git)
 - [Git & GitHub 教學手冊 - W3HexSchool](https://w3c.hexschool.com/git/7ca21e02)
