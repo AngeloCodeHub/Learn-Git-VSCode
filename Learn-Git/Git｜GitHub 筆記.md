@@ -23,8 +23,29 @@ git checkout使用在找回個別會多個遭刪除的檔案（或回復）
 	git clone --filter=blob:none --no-checkout git@github.com:photonstorm/phaser3-examples.git ./
 	```
 
----
+### 原型儲存庫（也是一種備份方法）
 
+```Powershell
+# 建立原型儲存庫
+git init --bare NewRepository.git
+
+# 一般儲存庫轉換為原型儲存庫
+git clone --bare my_project myproject.git
+```
+
+### Git Repo 封存備份
+
+```Powershell
+# 整個 repo 壓縮備份（不含 commit）
+git archive main --format=zip --output=../repbck.zip
+# 可選擇備份某個分支
+git archive head --format=zip --output=../repbck.zip
+
+# 儲存庫匯出一份可供還原的快照（包含完整的 commit）
+git bundle create ../repo.bundle main
+# 還原快照
+git clone repo.bundle repo -b main
+```
 ### Git GUI軟體
 
 - [Sourcetree](https://www.sourcetreeapp.com/)：免費軟體
