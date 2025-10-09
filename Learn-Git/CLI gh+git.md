@@ -1,3 +1,6 @@
+- git-cli 指令參數順序有嚴格限制
+- [Powershell與chcp修改編碼、ps搭配 "git ls-files" 移植具有版控的工作空間](https://www.perplexity.ai/search/wo-yao-jiang-yi-ge-ju-you-git-32gmrlh2SLa4By_JRxi5fg#2)
+
 
 ```Powershell
 gh repo create my-new-project --template owner/template-repo --public
