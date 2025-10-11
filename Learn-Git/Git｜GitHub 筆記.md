@@ -1,3 +1,8 @@
+- 檔案在加入 ignore 之前就 commit 存在的，會 ignore無效，需使用
+  ```shellscript
+  git rm env.json --cached
+  ```
+- git add . 與--all，差別 . 只會把當前folder與子folder add進，-all則會是整個專案
 - [解决不同系统换行符号导致的Git同步问题 - 经验分享 - Obsidian 中文论坛](https://forum-zh.obsidian.md/t/topic/43203/1)
 - 基本流程
 working Directory→暫存區(Staging Aera)→commit→repository→push→GitHub
@@ -69,7 +74,7 @@ git clone repo.bundle repo -b main
 - 撤銷（刪除）未追蹤的檔案
     
     ```powershell
-    # 撤銷（刪除）未追蹤的檔案
+    # 撤銷（刪除）未追蹤的檔案，f：force、d：untracked檔案
     git clean -fd
     # x參數會清空gitignord檔案與目錄
     git clean -fdx
@@ -90,6 +95,7 @@ git clone repo.bundle repo -b main
     
     ```powershell
     git restore .
+    git checkout .
     ```
     
 - project移除git版控
@@ -157,7 +163,8 @@ git help -a
 # git觀念與原理
 git help -g
 # 以網頁開出help（較詳盡）
-git help 指令
+git help commit
+git commit --help
 # 終端機列出可用參數
 git 指令 -h
 ```
