@@ -1,3 +1,4 @@
+- [解决不同系统换行符号导致的Git同步问题 - 经验分享 - Obsidian 中文论坛](https://forum-zh.obsidian.md/t/topic/43203/1)
 - 基本流程
 working Directory→暫存區(Staging Aera)→commit→repository→push→GitHub
 - VSCODE重訂基底有衝突時，目前變更（基底），來源變更（working dir）
@@ -137,7 +138,10 @@ git clone repo.bundle repo -b main
 - 重建基底，rebase
     
     ```powershell
-    # 撤銷重建基底工作
+    # 互動式選取重建基底的範圍
+    git rebase -i 000xxx
+    
+    # rebase失敗，撤銷重建基底工作
     git rebase --abort
     ```
     
