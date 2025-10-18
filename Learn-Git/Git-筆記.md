@@ -9,14 +9,8 @@ working Directory→暫存區(Staging Aera)→commit→repository→push→GitHu
 - VSCODE重訂基底有衝突時，目前變更（基底），來源變更（working dir）
 - 觀念：在stage裡的檔案表示與索引（index）的檔案是一致的並準備commit的檔案
 	已commit與已加入stage都稱為已被索引
-
-- git reset是針對整個commit去做移動
-git checkout使用在找回個別會多個遭刪除的檔案（或回復）
 - Git checkout會切換到指定的分支，但如果後面接的是檔名或路徑，Git 則不會切換分支，而是把檔案從 .git 目錄裡拉一份到目前的工作目錄。
-- checkout到其他分支，要在所在分支先commit
-- [git與github連結(使用ssh)](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/about-ssh)，ssh相關設定請看此篇
-	使用https協定需用token忽略兩階段驗證    
-- 存在沒有加入的檔案(untracked)，也可以提交
+- [git與github連結(使用ssh)](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/about-ssh)，使用https協定需用token忽略兩階段驗證
 - git reset回復到某個版本，有mixed、soft、hard模式
 - git與svn處理更名和移動的方式不一樣，svn需使用內建指令，否則log會斷掉
 - git remote add：新增遠端節點
@@ -52,12 +46,6 @@ git bundle create ../repo.bundle main
 # 還原快照
 git clone repo.bundle repo -b main
 ```
-### Git GUI軟體
-
-- [Sourcetree](https://www.sourcetreeapp.com/)：免費軟體
-- [Fork](https://git-fork.com/)：商業軟體
-
----
 
 ### 使用案例
 
@@ -69,6 +57,8 @@ git clone repo.bundle repo -b main
     git reset head^
     # 修改最近一次commit註解訊息
     git commit --amend -m "新的註解訊息"
+    # 不修改訊息
+    git commit --amend --no-edit
 	```
 
 - 撤銷（刪除）未追蹤的檔案
@@ -169,8 +159,6 @@ git commit --help
 git 指令 -h
 ```
 
----
-
 ### 學習資源
 
 - [Will 保哥：30 天精通 Git 版本控管（網頁版）](https://doggy8088.github.io/Learn-Git-in-30-days/)
@@ -185,3 +173,12 @@ git 指令 -h
 - [鐵人賽：不熟 Git 嗎？好巧我也是，不如我們一起來學吧！](https://ithelp.ithome.com.tw/users/20162483/ironman/6374)
 - [Will 保哥：30 天精通 Git 版本控管（GitHub 版）](https://github.com/doggy8088/Learn-Git-in-30-days)
 - [Will 保哥：YT Git版本控管視訊](https://www.youtube.com/watch?v=E_Nd0anNI6M&list=PL_dAxk7-NoFvcn8NRVgvwX1aLh_LrGpG0)
+
+### 官方使用手冊
+
+- [Git Cheat Sheet](https://git-scm.com/cheat-sheet)
+- [Git - Reference](https://git-scm.com/docs)
+- [Git - git-clone Documentation](https://git-scm.com/docs/git-clone)
+- [Git - git-remote Documentation](https://git-scm.com/docs/git-remote)
+- [Git - git-fetch Documentation](https://git-scm.com/docs/git-fetch)
+- [Git - git-diff Documentation](https://git-scm.com/docs/git-diff)

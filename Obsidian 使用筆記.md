@@ -1,3 +1,15 @@
+## 解決 Obsidian LF問題
+ 
+1. 專案根目錄新增 .gitattributes 設定檔案
+```.gitattributes
+*.md text eol=lf
+*.json text eol=lf
+```
+2. 讓 Git 重新整理
+```Bash
+git add .
+```
+
 ## 參考
 - 官方help：F1鍵
 - [中文討論群](https://forum-zh.obsidian.md/)
@@ -5,7 +17,7 @@
 - [Perplexity](https://www.perplexity.ai/search/wo-mu-qian-zheng-zai-xue-xi-ob-SioNq._kTuCBSEn8.TPAAA#0)
 - [obsidian文档咖啡豆版](https://obsidian.vip/zh/)
 ## FAQ
-- sync
+- obsidian 會忽略 . 開頭的目錄
 ## 常用第三方外掛
 - [Best Obsidian Plugins: New, Trending, Most Downloaded, Updated](https://www.obsidianstats.com/)
 - [obsidian-file-explorer-plus](https://github.com/kelszo/obsidian-file-explorer-plus)

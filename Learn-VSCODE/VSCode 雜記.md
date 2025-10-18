@@ -9,6 +9,7 @@
 - [Perplexity - Profile Extension設定](https://www.perplexity.ai/search/vscode-yao-zai-zen-mo-zai-mou-CNi8PzuOSBq1ALsvW35ymA)
 - [Perplexity - visual studio code 裡有類似像Chrome修改視窗名稱的指令或功能嗎？](https://www.perplexity.ai/search/visual-studio-code-li-you-lei-OuTAGm5SRQqjQQAfowFqCg)
 - [VSCode 教程 | 菜鸟教程](https://www.runoob.com/vscode/vscode-tutorial.html)
+- 無法預覽 . 開頭目錄裡的 markdown 檔案
 ## 主程式位置｜設定檔｜外掛安裝位置
 - 使用者資料，隨著時間越來越肥大
   ```PowerShell
