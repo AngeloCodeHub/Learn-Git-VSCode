@@ -29,3 +29,9 @@
 	```
 
 - 遇到問題可以刪除外掛目錄、使用者資料，並從 GitHub 同步重拉
+
+## Profile故障排除(extension 路徑錯誤無法載入)
+
+1. 到 Profile 目錄下備份 setting.json、extensions.json
+2. GUI 介面刪除 profile並在新建
+3. 回復以上兩個檔案
