@@ -1,4 +1,10 @@
+## keyword
+
+- Visual Studio Code Free Full Course
+
 ## 相關資源
+
+- [Visual Studio Code - 中文站](https://vscode.com.tw/)
 - [VSCode 的技巧大補帖](https://summer10920.github.io/2020/10-23/article-vscode/)
 - [Github應用教學-結合Microsoft Visual Studio Code編輯器](https://www.rs-online.com/designspark/github-microsoft-visual-studio-code-cn)
 - [20 個 VSCode 開發小技巧，讓你 Coding 三倍速！](https://www.youtube.com/watch?app=desktop&v=LOjUnXk_TNU&feature=youtu.be)
@@ -10,6 +16,7 @@
 - [Perplexity - visual studio code 裡有類似像Chrome修改視窗名稱的指令或功能嗎？](https://www.perplexity.ai/search/visual-studio-code-li-you-lei-OuTAGm5SRQqjQQAfowFqCg)
 - [VSCode 教程 | 菜鸟教程](https://www.runoob.com/vscode/vscode-tutorial.html)
 - 無法預覽 . 開頭目錄裡的 markdown 檔案
+
 ## 主程式位置｜設定檔｜外掛安裝位置
 - 使用者資料，隨著時間越來越肥大
   ```PowerShell
@@ -29,3 +36,9 @@
 	```
 
 - 遇到問題可以刪除外掛目錄、使用者資料，並從 GitHub 同步重拉
+
+## Profile故障排除(extension 路徑錯誤無法載入)
+
+1. 到 Profile 目錄下備份 setting.json、extensions.json
+2. GUI 介面刪除 profile並在新建
+3. 回復以上兩個檔案
