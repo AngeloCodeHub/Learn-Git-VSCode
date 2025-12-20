@@ -1,7 +1,6 @@
 # Shortcut
 
-  > 宗旨：解放滑鼠，鍵盤操作為主，增進Coding效率，VSCODE當成作業系統使用
-  > 鍵盤快速鍵不能依照 Workspace，只能依照Profile
+  > 解放滑鼠，鍵盤操作為主，增進Coding效率，VSCODE當成作業系統使用
 
 ## Help
 
@@ -41,9 +40,10 @@
 - 套＋左右箭頭：移動左右群組（互換）
 - Ctrl+Shift+PgUp / PgDn：移動編輯群組的tab
 
-## 焦點—左側
+## 焦點－檔案總管
 
-- Shift+ALT+R：以windows檔案總管開啟workspace
+- Shift+ALT+R：以windows檔案總管開啟當前選定的目錄
+- CTRL+SHIFT+C：開啟外部終端
 - 套+（CTRL+R）：鍵盤快速鍵cheat sheet（網頁PDF）
 
 ## 終端Terminal

@@ -1,3 +1,4 @@
+- [將某 commit 塞進某 Commit（重建基底）](https://gemini.google.com/app/b1a1eac33fabb3a6)
 - 檔案在加入 ignore 之前就 commit 存在的，會 ignore無效，需使用
   ```shellscript
   git rm env.json --cached
